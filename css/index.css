@@ -1,0 +1,20 @@
+img {
+    max-width: 30rem;
+    height: auto;
+}
+
+.gallery-list {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  padding: 0;
+}
+
+.gallery-item img {
+  width: 2000px;
+  height: 300px;
+  object-fit: cover;
+  display: block;
+  border-radius: 5px;
+}

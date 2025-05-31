@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Galerie de photos - navigation</title>
+  <link rel="stylesheet" href="css/index.css" />
+</head>
+
+<body>
+  <main id="photo">
+    <h1>Photo : 105</h1>
+
+    <section id="la_photo">
+    </section>
+
+    <div id="photoDetails" style="display: none;">
+      <p id="la_categorie">Catégorie : <span id="categorie_nom">Non définie</span></p>
+
+      <h4>Commentaires :</h4>
+      <ul id="les_commentaires">
+        <li>Aucun commentaire</li>
+      </ul>
+    </div>
+
+
+    <button id="loadGalleryButton">Charger la galerie</button>
+
+    <nav id="galleryNavigation">
+      <button id="btnFirst">Première</button>
+      <button id="btnPrev">Précédente</button>
+      <button id="btnNext">Suivante</button>
+      <button id="btnLast">Dernière</button>
+    </nav>
+
+    <div id="gallery"></div>
+  </main>
+
+  <script type="module" src="js/index.js"></script>
+</body>
+
+</html>
